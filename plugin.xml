@@ -76,7 +76,8 @@
         <framework src="SystemConfiguration.framework" />
         <framework src="Security.framework" />
         <framework src="CFNetwork.framework" />
-        <framework src="libstdc++.6.tbd" />
+        <!--<framework src="libstdc++.6.tbd" /> xcode10弃用该库 替换为libc++.tbd-->
+        <framework src="libc++.tbd" />
     </platform>
 
     <!-- android -->
